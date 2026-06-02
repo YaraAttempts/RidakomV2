@@ -43,39 +43,40 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
+                android:background="@drawable/circletext"
+                android:drawableLeft="@drawable/ic_name"
                 android:hint=" Name"
                 android:inputType="text"
+                android:padding="10dp"
                 android:singleLine="true"
                 android:textColor="@android:color/black"
-                android:textColorHint="@android:color/black"
-                android:padding="10dp"
-                android:background="@drawable/circletext"
-                android:drawableLeft="@drawable/ic_name" />
+                android:textColorHint="@android:color/black" />
+
             <EditText
                 android:id="@+id/et_phone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint=" Phone"
-                android:textColor="@android:color/black"
-                android:textColorHint="@android:color/black"
-                android:padding="10dp"
-                android:inputType="text"
-                android:singleLine="true"
                 android:background="@drawable/circletext1"
-                android:drawableLeft="@drawable/ic_phone"/>
+                android:drawableLeft="@drawable/ic_phone"
+                android:hint=" Phone"
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
 
             <EditText
                 android:id="@+id/et_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint=" Email"
-                android:textColor="@android:color/black"
-                android:textColorHint="@android:color/black"
-                android:padding="10dp"
-                android:inputType="text"
-                android:singleLine="true"
                 android:background="@drawable/circletext1"
-                android:drawableLeft="@drawable/ic_mail"/>
+                android:drawableLeft="@drawable/ic_mail"
+                android:hint=" Email"
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
 
             <Button
                 android:id="@+id/et_birthday"
